@@ -3,6 +3,25 @@
     font-size: 80px;
 }
 .second{
-    color: aquamarine;
+    color: rgb(47, 5, 139);
     font-size: 20px;
+}
+#dangki {
+    color: rgba(255, 0, 0, 0.827);
+    font-weight: bold;
+    font-size: large;
+}
+#cam{
+    color: rgb(249, 76, 76);
+    font-size: larger;
+    font-weight: bold;
+}
+li{
+    color: rgb(5, 154, 171);
+    font-weight: bold;
+    font-size: 19px;
+}
+#linkinfo{
+    color: blue;
+    font-weight: bold;
 }
