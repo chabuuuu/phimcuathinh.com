@@ -3,7 +3,7 @@
     font-size: 80px;
 }
 .second{
-    color: rgb(47, 5, 139);
+    color: var(--text-color);
     font-size: 20px;
 }
 #dangki {
@@ -23,5 +23,12 @@ li{
 }
 #linkinfo{
     color: blue;
+    font-weight: bold;
+}
+:root{
+    --text-color: rgb(100, 0, 144);
+}
+#bang{
+    color: var(--text-color);
     font-weight: bold;
 }
