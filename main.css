@@ -58,10 +58,19 @@ li{
 }
 html{
     font-size: 62.5%;
-    /* background-color: black; */
-    background-image: url(img5.jpg );
-    background-size: 100%;
+    background-color: rgb(51, 49, 70);
+
     background-repeat: no-repeat;
+      background-image: url(img8.jpg );
+    
+     background-size: 100%;
+    /* 
+    height: vh;
+    width: vw; */
+   
+    /* background-attachment: fixed;
+    /* background-size: 100%; */
+    /* height: vh; */ 
    
 }
 #gradient{
@@ -103,7 +112,7 @@ html{
 #HCB_comment_box .hcb-link{color:#0088AF;text-decoration:none;} 
 .mota{
     color: #eaeaea;
-    font-size: 2rem;
+    font-size: 1.5vw;
     margin: 10px;
 }
 
