@@ -57,3 +57,8 @@ html{
     background-size: 100%;
     background-repeat: no-repeat;
 }
+#download{
+    font-size: 20px;
+    color: blue;
+    font-weight: bold;
+}
