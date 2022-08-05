@@ -1,10 +1,14 @@
 #first {
-    color:indianred;
-    font-size: 80px;
+    color:rgba(27, 68, 155, 0.904);
+    font-size: 50px;
+    margin: 10px;
+    padding: 10px;
+    font-weight: bold;
 }
 .second{
-    color: var(--text-color);
+    color: indianred;
     font-size: 20px;
+    margin: 10px;
 }
 #dangki {
     color: rgba(255, 0, 0, 0.827);
@@ -22,9 +26,13 @@ li{
     font-size: 19px;
 }
 #linkinfo{
-    color: blue;
-    font-weight: bold;
+    /* color: rgba(255, 255, 255, 0.222); */
+    /* margin: 50px; */
+    /* top: 1000px; */
+    text-align: end;
+    color: #ffffff;
 }
+
 :root{
     --text-color: rgb(100, 0, 144);
 }
@@ -49,6 +57,11 @@ li{
 }
 html{
     font-size: 62.5%;
+    /* background-color: black; */
+    background-image: url(img5.jpg );
+    background-size: 100%;
+    /* background-repeat: no-repeat; */
+   
 }
 #gradient{
     width: 50%;
@@ -59,6 +72,35 @@ html{
 }
 #download{
     font-size: 20px;
-    color: blue;
+    color: rgb(128, 231, 124);
     font-weight: bold;
+    margin: 10px;
+}
+.thumbnail{
+    width: 10%;
+    height: 10rem;
+    background-image: url(https://s3-ap-southeast-1.amazonaws.com/images.spiderum.com/sp-images/53c4e0d0e77a11eb863155108791fd1f.jpg);
+    background-size: 90%;
+    background-repeat: no-repeat;
+    margin: 10px;
+    padding: 0;
+}
+#tieude{
+    text-align: center;
+}
+
+#HCB_comment_box{border: 2px solid #000000; border-radius: 5px; padding: 10px; color:#FFFFFF; background: rgba(0, 0, 0, 0.5);}
+.hcb-mod b{color:#0088AF;}
+#HCB_comment_box textarea,#HCB_comment_box input.text{border-top:1px solid #e4e4e4;border-left:1px solid #e4e4e4;border-bottom:1px solid #eaeaea;border-right:1px solid #eaeaea;background-color:#f8f8f8;}
+#HCB_comment_box .hcb-wrapper-half{display:block;width:50%;float:left;}
+#HCB_comment_box .hcb-wrapper{clear:both;}
+#HCB_comment_box input.text{display:block;width:95%;}
+#HCB_comment_box input.submit{border-top:1px solid #FCB1A2;border-left:1px solid #FCB1A2;border-bottom:1px solid #BB2B0F;border-right:1px solid #BB2B0F;background-color:#F26646;color:#000;font-weight:bold;cursor:pointer;}
+#HCB_comment_box div.comment{color:#ffffff; background: rgba(0, 0, 0, 0.5); border:3px double #000000 ; margin:5px; padding:2px;}
+#HCB_comment_box .comment .likes{color: #00FF00;}
+#HCB_comment_box .hcb-link{color:#0088AF;text-decoration:none;} 
+.mota{
+    color: #eaeaea;
+    font-size: 2rem;
+    margin: 10px;
 }
