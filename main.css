@@ -61,7 +61,7 @@ html{
     /* background-color: black; */
     background-image: url(img5.jpg );
     background-size: 100%;
-    /* background-repeat: no-repeat; */
+    background-repeat: no-repeat;
    
 }
 #gradient{
