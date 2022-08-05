@@ -31,6 +31,7 @@ li{
     /* top: 1000px; */
     text-align: end;
     color: #ffffff;
+    margin: 10px;
 }
 
 :root{
@@ -75,6 +76,7 @@ html{
     color: rgb(128, 231, 124);
     font-weight: bold;
     margin: 10px;
+    text-decoration: underline;
 }
 .thumbnail{
     width: 10%;
@@ -103,4 +105,33 @@ html{
     color: #eaeaea;
     font-size: 2rem;
     margin: 10px;
+}
+
+
+/* unvisited link */
+a:link{
+    color: rgba(42, 185, 157, 0.538);
+    font-size: 1.5rem;
+    text-decoration: none;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: rgba(42, 185, 157, 0.538);
+    font-size: 1.5rem;
+    text-decoration: none;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
+ 
+#linkinfo{
+    text-align: center;
 }
