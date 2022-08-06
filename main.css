@@ -64,7 +64,8 @@ html{
     background-repeat: no-repeat;
       background-image: url(img8.jpg );
     
-     background-size: 100%;
+     background-size: 120%;
+     width: vw;
     /* 
     height: vh;
     width: vw; */
