@@ -1,6 +1,6 @@
 #first {
     color:rgba(27, 68, 155, 0.904);
-    font-size: 50px;
+    font-size: 3vw;
     margin: 10px;
     padding: 10px;
     font-weight: bold;
@@ -88,19 +88,23 @@ html{
     text-decoration: underline;
 }
 .thumbnail{
-    width: 10%;
-    height: 10rem;
+    width: 20%;
+    height: 20rem;
     background-image: url(https://s3-ap-southeast-1.amazonaws.com/images.spiderum.com/sp-images/53c4e0d0e77a11eb863155108791fd1f.jpg);
-    background-size: 90%;
+    background-size: 100%;
     background-repeat: no-repeat;
     margin: 10px;
     padding: 0;
+    text-align: end;
+    background-position: center;
 }
 #tieude{
     text-align: center;
 }
 
-#HCB_comment_box{border: 2px solid #000000; border-radius: 5px; padding: 10px; color:#FFFFFF; background: rgba(0, 0, 0, 0.5);}
+#HCB_comment_box{border: 2px solid #000000; border-radius: 5px; padding: 10px; color:#FFFFFF; background: rgba(0, 0, 0, 0.5);
+    margin: 20px;
+}
 .hcb-mod b{color:#0088AF;}
 #HCB_comment_box textarea,#HCB_comment_box input.text{border-top:1px solid #e4e4e4;border-left:1px solid #e4e4e4;border-bottom:1px solid #eaeaea;border-right:1px solid #eaeaea;background-color:#f8f8f8;}
 #HCB_comment_box .hcb-wrapper-half{display:block;width:50%;float:left;}
