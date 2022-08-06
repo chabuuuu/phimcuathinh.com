@@ -4,6 +4,7 @@
     margin: 10px;
     padding: 10px;
     font-weight: bold;
+    height: 7rem;
 }
 .second{
     color: indianred;
@@ -87,16 +88,19 @@ html{
     margin: 10px;
     text-decoration: underline;
 }
+
+
 .thumbnail{
     width: 20%;
-    height: 20rem;
+    height: 19rem;
     background-image: url(https://s3-ap-southeast-1.amazonaws.com/images.spiderum.com/sp-images/53c4e0d0e77a11eb863155108791fd1f.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     margin: 10px;
     padding: 0;
     text-align: end;
-    background-position: center;
+    background-position: bottom ;
+   
 }
 #tieude{
     text-align: center;
@@ -116,7 +120,7 @@ html{
 #HCB_comment_box .hcb-link{color:#0088AF;text-decoration:none;} 
 .mota{
     color: #eaeaea;
-    font-size: 1.5vw;
+    font-size: 1.3vw;
     margin: 10px;
 }
 
