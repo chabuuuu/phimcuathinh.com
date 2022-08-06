@@ -144,3 +144,8 @@ a:link{
 #linkinfo{
     text-align: center;
 }
+iframe{
+    border: rgba(0, 0, 0, 0);
+    width:65%;
+    height:480px;
+}
