@@ -172,7 +172,7 @@ iframe{
     border: none;
     width: max-content;
     color: rgb(252, 2, 2);
-    font-weight: bold;
+    /* font-weight: bold; */
     text-decoration: underline;
     text-align: center;
     margin: 10px;
