@@ -37,19 +37,46 @@
         <p class="mota">Câu chuyện xoay quanh Houtarou, người có cách sống khá xa cách và thờ ơ, luôn tìm cách để "tiết kiệm năng lượng" hết mức có thể. Cậu bị chị mình ép phải gia nhập câu lạc bộ văn học. Tại đó, cậu đã cùng những người bạn của mình tìm thấy một tuyển tập có tên là Hyouka, và đến gần hơn với những bí ẩn 33 năm trước...</p>
 
      </div>
-      
-<button id="baoloilink" onclick="javascript:emailCurrentPage()">BÁO LỖI LINK</button>
+   
+     <!-- bao loi link -->
+
+<div>
+    <button id="baoloilink" onclick="javascript:emailCurrentPage()">BÁO LỖI LINK</button>
 
 
-<script>
-function emailCurrentPage() {
-var htmlData = document.getElementById('inc').innerHTML;
-window.location.href = 'mailto:chabu3364@gmail.com?subject="' + window.location.href + '"&body=Bấm gửi thôi, không cần viết gì thêm.%0D%0AAdmin sẽ khắc phục link trong vòng 24h :D%0D%0AĐịa chỉ email của bạn sẽ được bảo mật, nếu bị leak ra ngoài xin phép chặt đầu admin' + htmlData;}</script>
-
-
-<main id="inc">
+    <script>
+    function emailCurrentPage() {
+    var htmlData = document.getElementById('inc').innerHTML;
+    window.location.href = 'mailto:chabu3364@gmail.com?subject="' + window.location.href + '"&body=Bấm gửi thôi, không cần viết gì thêm.%0D%0AAdmin sẽ khắc phục link trong vòng 24h :D%0D%0AĐịa chỉ email của bạn sẽ được bảo mật, nếu bị leak ra ngoài xin phép chặt đầu admin' + htmlData;}</script>
     
-</main>
+    
+    <main id="inc">
+        
+    </main>
+    
+    <!-- suggestphim -->
+    
+    <div style="left: 12rem; top: -3.6rem;" class="tooltip">
+        <button style="background-color: rgba(255, 0, 0, 0) ; border: none; color: rgb(102, 201, 155); text-decoration: underline; 
+        font-weight: bold;" onclick="javascript:suggest_phim()">SUGGEST PHIM</button>
+        <span class="tooltiptext">Có phim nào bạn muốn đề xuất cho web không ? Hoặc là yêu cầu up tập mới của phim chẳng hạn</span>
+        <script>
+        function suggest_phim() {
+        var htmlData = document.getElementById('inc').innerHTML;
+        window.location.href = 'mailto:chabu3364@gmail.com?subject="' + window.location.href + '"&body=Nhập phim bạn muốn đề xuất cho web, hoặc đề xuất tập mới, thêm sub,... Hoặc đóng góp tính năng mới cho web' + htmlData;}</script>
+        
+        
+        <main id="inc">
+            
+        </main>
+
+</div>
+
+
+
+</div>
+
+
 
 <!-- Đánh giá -->
 
@@ -68,12 +95,12 @@ window.location.href = 'mailto:chabu3364@gmail.com?subject="' + window.location.
     <a id="link" href="https://www.facebook.com/bu.chan0310/" target="_blank">Web code by Hà Phú Thịnh - gọi Netflix là đbrr </a>
   </P> 
 
-<!-- chatbox -->
 
-  <h3></h3><!-- Start BawkBox Code--><script data-sil-id="62f25367d674e30013405b95">var loadWidget = function() { var d = document, w = window, l = window.location,p = l.protocol == "file:" ? "http://" : "//"; if (!w.WS) w.WS = {}; c = w.WS; var m=function(t, o){ var e = d.getElementsByTagName("script"); e=e[e.length-1]; var n = d.createElement(t); if (t=="script") {n.async=true;} for (k in o) n[k] = o[k]; e.parentNode.insertBefore(n, e)}; m("script", { src: p + "bawkbox.com/widget/customer-chat/62f25367d674e30013405b95?page=" +encodeURIComponent(l+''), type: 'text/javascript' }); c.load_net = m; }; if(window.Squarespace){ document.addEventListener('DOMContentLoaded', loadWidget); setTimeOut(function(){ document.addEventListener('DOMContentLoaded', loadWidget); }, 3000) } else { loadWidget() } </script><div class="sil-widget-customer-chat sil-widget" id="sil-widget-62f25367d674e30013405b95"><a href="//bawkbox.com/install/customer-chat">Customer Chat</a></div><!-- End BawkBox Code-->
 
   
 </div>
+
+
 
     </body>
 </html>
