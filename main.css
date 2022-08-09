@@ -170,12 +170,15 @@ iframe{
 #baoloilink{
     background-color: rgba(255, 255, 255, 0);
     border: none;
-    width: max-content;
-    color: rgb(252, 2, 2);
-    /* font-weight: bold; */
+    /* width: max-content; */
+    color: rgb(239, 239, 239);
+    font-weight: bold;
     text-decoration: underline;
-    text-align: center;
+    /* text-align: center; */
     margin: 10px;
+    font-size: 1.5rem;
 }
 
 /* Định kiểu cho vùng chứa Tooltip */.tooltip { margin: 10px; position: relative;  display: inline-block;  border-bottom: 1px dotted black; /* Thêm dấu chấm dạng gạch chân cho văn bản */}/* Định dạng text trong tooltip */.tooltip .tooltiptext {font-size: 2rem;  visibility: hidden;  width: 40rem;  background-color: black;  color: #fff;  text-align: center;  padding: 5px 0;  border-radius: 6px;/* Xác định vị trí tooltip */  position: absolute;  z-index: 1;}/* Cho hiển thị tooltip khi di chuột qua vùng chứa tooltip */.tooltip:hover .tooltiptext {  visibility: visible;}
+
+/* Định kiểu cho vùng chứa Tooltip */.tooltip2 { margin: 10px; position: relative;  display: inline-block;  border-bottom: 1px dotted black; /* Thêm dấu chấm dạng gạch chân cho văn bản */}/* Định dạng text trong tooltip */.tooltip2 .tooltiptext2 {font-size: 2rem;  visibility: hidden;  width: 40rem;  background-color: black;  color: #fff;  text-align: center;  padding: 5px 0;  border-radius: 6px;/* Xác định vị trí tooltip */  position: absolute;  z-index: 1;}/* Cho hiển thị tooltip khi di chuột qua vùng chứa tooltip */.tooltip2:hover .tooltiptext2 {  visibility: visible;}

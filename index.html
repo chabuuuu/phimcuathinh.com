@@ -40,25 +40,31 @@
    
      <!-- bao loi link -->
 
-<div>
-    <button id="baoloilink" onclick="javascript:emailCurrentPage()">BÁO LỖI LINK</button>
 
+
+  <div style="border: none ;" id="loilink"  class="tooltip2">
+
+    <button style="margin: 10px; color: rgb(235, 71, 68); font-weight: bold;" id="baoloilink" onclick="javascript:emailCurrentPage()">BÁO LỖI LINK</button>
+    <span class="tooltiptext2">Báo link phim bị lỗi ngay</span>
 
     <script>
     function emailCurrentPage() {
     var htmlData = document.getElementById('inc').innerHTML;
-    window.location.href = 'mailto:chabu332004@gmail.com?subject="' + window.location.href + '"&body=Bấm gửi thôi, không cần viết gì thêm.%0D%0AAdmin sẽ khắc phục link trong vòng 24h :D%0D%0AĐịa chỉ email của bạn sẽ được bảo mật, nếu bị leak ra ngoài xin phép chặt đầu admin' + htmlData;}</script>
+    window.location.href = 'mailto:chabu332004@gmail.com?subject="Báo lỗi link phim: ' + window.location.href + '"&body="Bấm gửi thôi, không cần viết gì thêm.%0D%0AAdmin sẽ khắc phục link phim: '+ window.location.href +' trong vòng 24h"'}</script>
     
     
     <main id="inc">
         
     </main>
+  
+    </div>
+    
     
     <!-- suggestphim -->
     
-    <div style="left: 12rem; top: -3.6rem;" class="tooltip">
+    <div style=" top: -0.1rem; border: none" class="tooltip">
         <button style="background-color: rgba(255, 0, 0, 0) ; border: none; color: rgb(102, 201, 155); text-decoration: underline; 
-        font-weight: bold;" onclick="javascript:suggest_phim()">SUGGEST PHIM</button>
+        font-weight: bold; font-size: 1.5rem;" onclick="javascript:suggest_phim()">SUGGEST PHIM</button>
         <span class="tooltiptext">Có phim nào bạn muốn đề xuất cho web không ? Hoặc là yêu cầu up tập mới của phim chẳng hạn</span>
         <script>
         function suggest_phim() {
